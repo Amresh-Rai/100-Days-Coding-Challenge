@@ -1,5 +1,8 @@
 package Day7;
 
+import java.util.Deque;
+import java.util.stream.Gatherer.Integrator;
+
 public class RemoveDuplicateFromSortedArray {
     public static int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;
